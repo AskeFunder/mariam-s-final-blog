@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0a0a0a;
+  --fg: #f5f5f5;
+  --muted: #a3a3a3;
+}
+
+html, body { background: var(--bg); color: var(--fg); }
+
+@layer base {
+  html { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+  ::selection { background: #ffffff20; color: var(--fg); }
+  a { @apply underline underline-offset-2 decoration-white/20 hover:decoration-white/50 transition; }
+  img { @apply select-none; }
+  :focus-visible { outline: none; box-shadow: 0 0 0 2px #fff3; }
+}
