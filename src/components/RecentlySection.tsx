@@ -1,5 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
+import localFont from "next/font/local";
+
+const bbhSansBartle = localFont({
+    src: "../fonts/BBHSansBartle-Regular.ttf",
+    display: "swap",
+});
 
 type Article = {
     _id: string;
@@ -38,7 +44,8 @@ export default function RecentlySection({
         <section className="w-full">
             {/* Section Title */}
             <h2 className="text-2xl md:text-3xl font-semibold text-foreground mb-8">
-                {sectionTitle}
+                <span className="font-futura">Recently on </span>
+                <span className={bbhSansBartle.className}>RELAUNCHED</span>
             </h2>
 
             {/* Layout: 4 small items on left, 1 large featured on right */}
@@ -56,7 +63,7 @@ export default function RecentlySection({
                                     className="group block"
                                 >
                                     {img && (
-                                        <div className="relative aspect-[4/3] overflow-hidden rounded-lg mb-3">
+                                        <div className="relative aspect-[4/3] overflow-hidden mb-3">
                                             <Image
                                                 src={img}
                                                 alt={item.title}
@@ -66,7 +73,7 @@ export default function RecentlySection({
                                             />
                                         </div>
                                     )}
-                                    <h3 className="text-sm md:text-base font-medium text-foreground leading-snug mb-1 group-hover:text-pink-500 transition-colors duration-300">
+                                    <h3 className="text-sm md:text-base font-medium text-foreground leading-snug mb-1 group-hover:text-[#00ff00] transition-colors duration-300 font-futura">
                                         {item.title}
                                     </h3>
                                     <p className="text-xs text-muted">
@@ -85,7 +92,7 @@ export default function RecentlySection({
                         className="group block"
                     >
                         {featured.cover?.asset?.url && (
-                            <div className="relative aspect-[3/4] overflow-hidden rounded-lg mb-4">
+                            <div className="relative aspect-[3/4] overflow-hidden mb-4">
                                 <Image
                                     src={featured.cover.asset.url}
                                     alt={featured.title}
@@ -95,7 +102,7 @@ export default function RecentlySection({
                                 />
                             </div>
                         )}
-                        <h3 className="text-lg md:text-xl font-medium text-foreground leading-snug mb-2 group-hover:text-pink-500 transition-colors duration-300">
+                        <h3 className="text-lg md:text-xl font-medium text-foreground leading-snug mb-2 group-hover:text-[#00ff00] transition-colors duration-300 font-futura">
                             {featured.title}
                         </h3>
                         <p className="text-sm text-muted">

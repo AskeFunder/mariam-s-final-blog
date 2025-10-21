@@ -1,0 +1,21 @@
+/* [project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/bbhsansbartle_a39a622d.module.css [app-client] (css) */
+@font-face {
+  font-family: bbhSansBartle;
+  src: url("../media/BBHSansBartle_Regular-s.p.bef32af1.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: bbhSansBartle Fallback;
+  src: local(Arial);
+  ascent-override: 36.95%;
+  descent-override: 9.72%;
+  line-gap-override: 0.0%;
+  size-adjust: 257.09%;
+}
+
+.bbhsansbartle_a39a622d-module__flxdDG__className {
+  font-family: bbhSansBartle, bbhSansBartle Fallback;
+}
+
+/*# sourceMappingURL=15878_Ionic_mariam-s-final-blog_src_components_bbhsansbartle_a39a622d_module_96a9c98b.css.map*/

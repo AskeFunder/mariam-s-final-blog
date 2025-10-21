@@ -30,7 +30,7 @@ export default function FeatureSection({ items }: { items: Article[] }) {
             </div>
 
             {/* RIGHT: Six smaller grid items */}
-            <div className="w-full lg:flex-[1] rounded-lg overflow-hidden bg-background">
+            <div className="w-full lg:flex-[1] overflow-hidden bg-background">
                 <Grid6Small items={rest} />
             </div>
         </section>

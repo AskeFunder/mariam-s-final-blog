@@ -1,0 +1,25 @@
+/* [project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/app/personanongrata_dac102b1.module.css [app-client] (css) */
+@font-face {
+  font-family: personaNonGrata;
+  src: url("../media/Persona_Non_Grata-s.p.598ad468.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: personaNonGrata Fallback;
+  src: local(Arial);
+  ascent-override: 95.39%;
+  descent-override: 22.33%;
+  line-gap-override: 3.45%;
+  size-adjust: 94.9%;
+}
+
+.personanongrata_dac102b1-module__L6Uwyq__className {
+  font-family: personaNonGrata, personaNonGrata Fallback;
+}
+
+.personanongrata_dac102b1-module__L6Uwyq__variable {
+  --font-persona-non-grata: "personaNonGrata", "personaNonGrata Fallback";
+}
+
+/*# sourceMappingURL=15878_Ionic_mariam-s-final-blog_src_app_personanongrata_dac102b1_module_css_bad6b30c._.single.css.map*/

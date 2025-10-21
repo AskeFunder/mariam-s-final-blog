@@ -56,10 +56,10 @@ export default function Grid6Small({ items }: { items: Article[] }) {
                     <Link
                         key={p._id}
                         href={`/articles/${p.slug}`}
-                        className={`group block overflow-hidden rounded-lg transition hover:opacity-90 ${mobileSpan} sm:col-span-1 sm:row-span-1 flex flex-col`}
+                        className={`group block overflow-hidden transition hover:opacity-90 ${mobileSpan} sm:col-span-1 sm:row-span-1 flex flex-col`}
                     >
                         {img && (
-                            <div className={`relative ${desktopAspectRatio} sm:${desktopAspectRatio} overflow-hidden rounded-lg flex-shrink-0`}>
+                            <div className={`relative ${desktopAspectRatio} sm:${desktopAspectRatio} overflow-hidden flex-shrink-0`}>
                                 <Image
                                     src={img}
                                     alt={p.title}
@@ -70,7 +70,7 @@ export default function Grid6Small({ items }: { items: Article[] }) {
                             </div>
                         )}
                         <div className="pt-2 sm:pt-3 flex-grow">
-                            <h3 className="text-xs sm:text-sm font-medium text-foreground leading-snug mb-1 group-hover:text-pink-500 transition-colors duration-300">
+                            <h3 className="text-sm sm:text-base font-medium text-foreground leading-snug mb-1 group-hover:text-[#00ff00] transition-colors duration-300 font-futura">
                                 {p.title}
                             </h3>
                             <p className="text-xs text-muted">

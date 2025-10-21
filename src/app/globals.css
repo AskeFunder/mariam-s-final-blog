@@ -1,5 +1,31 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'Futura';
+  src: url('../fonts/Futura-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Persona-Non-Grata';
+  src: url('../fonts/Persona-Non-Grata.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Force Futura font for debugging */
+.font-futura {
+  font-family: 'Futura', Arial, Helvetica, sans-serif !important;
+}
+
+/* Force Persona font for debugging */
+.font-persona {
+  font-family: 'Persona-Non-Grata', Arial, Helvetica, sans-serif !important;
+}
+
 /* 🎨 Theme Variables */
 :root {
   --background: #fcf6e9;

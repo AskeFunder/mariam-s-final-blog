@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Aske/Desktop/Vue/Ionic/mariam-s-final-blog/src/app/%28site%29/about/page.tsx"],"sourcesContent":["export default function About() {\r\n  return (\r\n    <article className=\"prose prose-invert\">\r\n      <h1>About</h1>\r\n      <p>This is a mock About page. Put your statement here.</p>\r\n    </article>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,ySAAC;QAAQ,WAAU;;0BACjB,ySAAC;0BAAG;;;;;;0BACJ,ySAAC;0BAAE;;;;;;;;;;;;AAGT","debugId":null}}]
-}

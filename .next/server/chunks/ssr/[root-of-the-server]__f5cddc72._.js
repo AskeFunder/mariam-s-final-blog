@@ -68,7 +68,7 @@ function ExpandablePills() {
     const mainCategories = [
         {
             href: "/brief",
-            label: "Brief"
+            label: "Brief history of art"
         },
         {
             href: "/notes-on-art",
@@ -102,64 +102,18 @@ function ExpandablePills() {
         'Social Issues'
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "max-w-[30%] ml-auto",
+        className: "ml-auto",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex items-center justify-end gap-2",
+                className: "flex items-center justify-end gap-2 flex-nowrap",
                 children: [
                     mainCategories.map((category, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: index > 0 ? "ml-2" : "",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 href: category.href,
-                                className: " flex items-center justify-center border-[1.5px] border-foreground text-foreground rounded-full px-3 py-1 font-medium leading-none text-sm transition-all duration-300 hover:bg-foreground hover:text-background relative overflow-hidden group ",
-                                children: [
-                                    category.label,
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "absolute inset-0 pointer-events-none",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "absolute top-1 left-2 w-1 h-1 bg-pink-400 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-sparkle-1"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/ExpandablePills.tsx",
-                                                lineNumber: 47,
-                                                columnNumber: 33
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "absolute top-2 right-3 w-0.5 h-0.5 bg-pink-300 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-sparkle-2"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/ExpandablePills.tsx",
-                                                lineNumber: 48,
-                                                columnNumber: 33
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "absolute bottom-2 left-4 w-1.5 h-1.5 bg-pink-500 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-sparkle-3"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/ExpandablePills.tsx",
-                                                lineNumber: 49,
-                                                columnNumber: 33
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "absolute bottom-1 right-2 w-0.5 h-0.5 bg-pink-400 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-sparkle-4"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/ExpandablePills.tsx",
-                                                lineNumber: 50,
-                                                columnNumber: 33
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "absolute top-3 right-1 w-1 h-1 bg-pink-300 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-sparkle-5"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/ExpandablePills.tsx",
-                                                lineNumber: 51,
-                                                columnNumber: 33
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/ExpandablePills.tsx",
-                                        lineNumber: 46,
-                                        columnNumber: 29
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                                className: " flex items-center justify-center bg-white/10 backdrop-blur-sm border border-white/20 text-foreground rounded-full px-5 py-2.5 font-medium leading-none text-base font-futura uppercase tracking-wider transition-all duration-300 ease-out hover:bg-[#00ff00] hover:text-black hover:scale-105 hover:shadow-lg active:scale-95 relative overflow-hidden group ",
+                                children: category.label
+                            }, void 0, false, {
                                 fileName: "[project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/ExpandablePills.tsx",
                                 lineNumber: 29,
                                 columnNumber: 25
@@ -173,69 +127,23 @@ function ExpandablePills() {
                         className: "ml-2",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             onClick: ()=>setIsExpanded(!isExpanded),
-                            className: " w-6 h-6  border-[1.5px] border-foreground rounded-full flex items-center justify-center transition-all duration-300 hover:bg-foreground hover:text-background group relative overflow-hidden ",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-foreground text-xs font-bold",
-                                    children: isExpanded ? '−' : '...'
-                                }, void 0, false, {
-                                    fileName: "[project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/ExpandablePills.tsx",
-                                    lineNumber: 70,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "absolute inset-0 pointer-events-none",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "absolute top-1 left-2 w-1 h-1 bg-pink-400 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-sparkle-1"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/ExpandablePills.tsx",
-                                            lineNumber: 75,
-                                            columnNumber: 29
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "absolute top-2 right-3 w-0.5 h-0.5 bg-pink-300 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-sparkle-2"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/ExpandablePills.tsx",
-                                            lineNumber: 76,
-                                            columnNumber: 29
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "absolute bottom-2 left-4 w-1.5 h-1.5 bg-pink-500 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-sparkle-3"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/ExpandablePills.tsx",
-                                            lineNumber: 77,
-                                            columnNumber: 29
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "absolute bottom-1 right-2 w-0.5 h-0.5 bg-pink-400 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-sparkle-4"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/ExpandablePills.tsx",
-                                            lineNumber: 78,
-                                            columnNumber: 29
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "absolute top-3 right-1 w-1 h-1 bg-pink-300 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-sparkle-5"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/ExpandablePills.tsx",
-                                            lineNumber: 79,
-                                            columnNumber: 29
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/ExpandablePills.tsx",
-                                    lineNumber: 74,
-                                    columnNumber: 25
-                                }, this)
-                            ]
-                        }, void 0, true, {
+                            className: " w-8 h-8  bg-white/10 backdrop-blur-sm border border-white/20 rounded-full flex items-center justify-center transition-all duration-300 ease-out hover:bg-[#00ff00] hover:text-black hover:scale-105 hover:shadow-lg active:scale-95 group relative overflow-hidden ",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-foreground text-xs font-bold",
+                                children: isExpanded ? '−' : '...'
+                            }, void 0, false, {
+                                fileName: "[project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/ExpandablePills.tsx",
+                                lineNumber: 66,
+                                columnNumber: 25
+                            }, this)
+                        }, void 0, false, {
                             fileName: "[project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/ExpandablePills.tsx",
-                            lineNumber: 59,
+                            lineNumber: 53,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/ExpandablePills.tsx",
-                        lineNumber: 58,
+                        lineNumber: 52,
                         columnNumber: 17
                     }, this)
                 ]
@@ -245,75 +153,25 @@ function ExpandablePills() {
                 columnNumber: 13
             }, this),
             isExpanded && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "w-full mt-2",
-                children: additionalCategories.slice().reverse().map((category, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "inline-block mb-1",
-                        style: {
-                            marginRight: `${index % 3 * 8}px`,
-                            marginTop: `${index % 2 * 4}px`
-                        },
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            className: " flex items-center justify-center border-[1.5px] border-foreground text-foreground rounded-full px-3 py-1 font-medium leading-none text-sm transition-all duration-300 hover:bg-foreground hover:text-background group relative overflow-hidden ",
-                            children: [
-                                category,
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "absolute inset-0 pointer-events-none",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "absolute top-1 left-2 w-1 h-1 bg-pink-400 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-sparkle-1"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/ExpandablePills.tsx",
-                                            lineNumber: 113,
-                                            columnNumber: 37
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "absolute top-2 right-3 w-0.5 h-0.5 bg-pink-300 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-sparkle-2"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/ExpandablePills.tsx",
-                                            lineNumber: 114,
-                                            columnNumber: 37
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "absolute bottom-2 left-4 w-1.5 h-1.5 bg-pink-500 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-sparkle-3"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/ExpandablePills.tsx",
-                                            lineNumber: 115,
-                                            columnNumber: 37
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "absolute bottom-1 right-2 w-0.5 h-0.5 bg-pink-400 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-sparkle-4"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/ExpandablePills.tsx",
-                                            lineNumber: 116,
-                                            columnNumber: 37
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "absolute top-3 right-1 w-1 h-1 bg-pink-300 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-sparkle-5"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/ExpandablePills.tsx",
-                                            lineNumber: 117,
-                                            columnNumber: 37
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/ExpandablePills.tsx",
-                                    lineNumber: 112,
-                                    columnNumber: 33
-                                }, this)
-                            ]
-                        }, void 0, true, {
+                className: "w-full max-w-[50%] ml-auto mt-2",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "flex flex-wrap justify-end gap-2",
+                    children: additionalCategories.map((category, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            className: " flex items-center justify-center bg-white/10 backdrop-blur-sm border border-white/20 text-foreground rounded-full px-5 py-2.5 font-medium leading-none text-base font-futura uppercase tracking-wider transition-all duration-300 ease-out hover:bg-[#00ff00] hover:text-black hover:scale-105 hover:shadow-lg active:scale-95 group relative overflow-hidden shrink-0 ",
+                            children: category
+                        }, category, false, {
                             fileName: "[project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/ExpandablePills.tsx",
-                            lineNumber: 97,
+                            lineNumber: 78,
                             columnNumber: 29
-                        }, this)
-                    }, category, false, {
-                        fileName: "[project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/ExpandablePills.tsx",
-                        lineNumber: 89,
-                        columnNumber: 25
-                    }, this))
+                        }, this))
+                }, void 0, false, {
+                    fileName: "[project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/ExpandablePills.tsx",
+                    lineNumber: 76,
+                    columnNumber: 21
+                }, this)
             }, void 0, false, {
                 fileName: "[project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/ExpandablePills.tsx",
-                lineNumber: 87,
+                lineNumber: 75,
                 columnNumber: 17
             }, this)
         ]
@@ -356,10 +214,10 @@ function Header() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
         className: "bg-background",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex w-full flex-col gap-6 py-8",
+            className: "flex w-full flex-col gap-3 py-8",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex flex-col sm:flex-row w-full items-center justify-between px-6 sm:px-12 md:px-16 lg:px-20 py-6 gap-4 sm:gap-0",
+                    className: "flex flex-col sm:flex-row w-full items-center justify-between px-6 sm:px-12 md:px-16 lg:px-20 py-3 gap-4 sm:gap-0",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                             href: "/",
@@ -380,14 +238,14 @@ function Header() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
                             role: "search",
                             onSubmit: handleSearch,
-                            className: "w-full max-w-[240px] sm:max-w-[160px] md:max-w-[200px] lg:max-w-[240px] xl:max-w-[280px] 2xl:max-w-[320px] h-8 sm:h-8 md:h-9 lg:h-10 flex items-center rounded-full bg-muted/10 border-[1.5px] border-muted/30 hover:border-foreground/30 focus-within:border-foreground/60 backdrop-blur-sm px-2 sm:px-2 md:px-3 flex-shrink-0",
+                            className: "w-full max-w-[280px] sm:max-w-[200px] md:max-w-[240px] lg:max-w-[280px] xl:max-w-[320px] 2xl:max-w-[360px] h-10 sm:h-10 md:h-11 lg:h-12 flex items-center rounded-full bg-white/20 backdrop-blur-md border border-white/30 hover:bg-white/30 hover:border-white/50 hover:shadow-lg focus-within:bg-white/40 focus-within:border-white/60 focus-within:shadow-xl transition-all duration-300 ease-out px-5 py-3 flex-shrink-0 font-futura",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Vue$2f$Ionic$2f$mariam$2d$s$2d$final$2d$blog$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                 type: "search",
                                 placeholder: "Search…",
                                 "aria-label": "Search",
                                 value: searchQuery,
                                 onChange: (e)=>setSearchQuery(e.target.value),
-                                className: " flex-1 bg-transparent appearance-none border-none outline-none text-xs sm:text-sm md:text-sm text-foreground placeholder:text-muted px-1 sm:px-2 md:px-2 py-0.5 sm:py-1 md:py-1.5 focus:ring-0 focus:outline-none selection:bg-foreground selection:text-background "
+                                className: " flex-1 bg-transparent appearance-none border-none outline-none text-sm sm:text-base md:text-base text-foreground placeholder:text-foreground/60 px-2 py-1 focus:ring-0 focus:outline-none selection:bg-foreground selection:text-background "
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/Vue/Ionic/mariam-s-final-blog/src/components/Header.tsx",
                                 lineNumber: 55,

@@ -1,0 +1,3 @@
+module.exports=[93695,(a,b,c)=>{b.exports=a.x("next/dist/shared/lib/no-fallback-error.external.js",()=>require("next/dist/shared/lib/no-fallback-error.external.js"))},34294,a=>{a.n(a.i(3681))},62301,a=>{a.n(a.i(64273))},27009,a=>{a.n(a.i(66591))},44848,(a,b,c)=>{},63333,a=>{"use strict";a.s(["default",()=>c]);var b=a.i(93920);function c(){return(0,b.jsxs)("article",{className:"prose prose-invert",children:[(0,b.jsx)("h1",{children:"About"}),(0,b.jsx)("p",{children:"This is a mock About page. Put your statement here."})]})}}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__f040944a._.js.map

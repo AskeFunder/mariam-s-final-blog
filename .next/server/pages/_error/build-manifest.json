@@ -6,18 +6,9 @@
   "rootMainFiles": [],
   "pages": {
     "/_error": [
-      "static/chunks/7e4a5_next_dist_compiled_next-devtools_index_a9bfec71.js",
-      "static/chunks/7e4a5_next_dist_compiled_1964118e._.js",
-      "static/chunks/7e4a5_next_dist_shared_lib_0f5e915c._.js",
-      "static/chunks/7e4a5_next_dist_client_21791a8e._.js",
-      "static/chunks/7e4a5_next_dist_9721493a._.js",
-      "static/chunks/7e4a5_next_error_f5993f99.js",
-      "static/chunks/[next]_entry_page-loader_ts_256309e1._.js",
-      "static/chunks/7e4a5_react-dom_cd27a450._.js",
-      "static/chunks/7e4a5_3409b352._.js",
-      "static/chunks/[root-of-the-server]__333788d5._.js",
-      "static/chunks/Desktop_Vue_Ionic_mariam-s-final-blog_pages__error_2da965e7._.js",
-      "static/chunks/turbopack-Desktop_Vue_Ionic_mariam-s-final-blog_pages__error_a69a9c6a._.js"
+      "static/chunks/4d15250d9385789d.js",
+      "static/chunks/ebdd8f6733d1c6ac.js",
+      "static/chunks/turbopack-845e775102b2ab1f.js"
     ]
   },
   "ampFirstPages": []

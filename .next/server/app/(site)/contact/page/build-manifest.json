@@ -2,19 +2,15 @@
   "devFiles": [],
   "ampDevFiles": [],
   "polyfillFiles": [
-    "static/chunks/7e4a5_next_dist_build_polyfills_polyfill-nomodule.js"
+    "static/chunks/a6dad97d9634a72d.js"
   ],
   "lowPriorityFiles": [],
   "rootMainFiles": [
-    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_b3c413c9._.js",
-    "static/chunks/7e4a5_next_dist_compiled_react-dom_f1cdb879._.js",
-    "static/chunks/7e4a5_next_dist_compiled_next-devtools_index_4e7ac05b.js",
-    "static/chunks/7e4a5_next_dist_compiled_76464957._.js",
-    "static/chunks/7e4a5_next_dist_client_934f6c00._.js",
-    "static/chunks/7e4a5_next_dist_c53bc51a._.js",
-    "static/chunks/7e4a5_@swc_helpers_cjs_e940cb5b._.js",
-    "static/chunks/Desktop_Vue_Ionic_mariam-s-final-blog_a0ff3932._.js",
-    "static/chunks/turbopack-Desktop_Vue_Ionic_mariam-s-final-blog_5ee7520c._.js"
+    "static/chunks/bd77a22af33ba265.js",
+    "static/chunks/04368f3ee1905296.js",
+    "static/chunks/45b55e715eb30143.js",
+    "static/chunks/15c2fe86ca6a632f.js",
+    "static/chunks/turbopack-3d642143238a62c3.js"
   ],
   "pages": {},
   "ampFirstPages": []

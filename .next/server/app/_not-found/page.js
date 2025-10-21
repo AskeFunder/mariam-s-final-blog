@@ -2,7 +2,7 @@ var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_not-found/
 R.c("server/chunks/ssr/7e4a5_496a08d0._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__e8a2741f._.js")
 R.c("server/chunks/ssr/Desktop_Vue_Ionic_mariam-s-final-blog_src_app_c6211f3d._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__62336397._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__c2c98745._.js")
 R.c("server/chunks/ssr/7e4a5_next_dist_client_components_89efcceb._.js")
 R.c("server/chunks/ssr/7e4a5_next_dist_client_components_builtin_forbidden_db4454a7.js")
 R.c("server/chunks/ssr/7e4a5_next_dist_e092810d._.js")

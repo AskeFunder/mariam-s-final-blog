@@ -17,7 +17,7 @@ export default async function HomePage() {
   const categoryPosts2 = rest.slice(4, 8);
 
   return (
-    <div className="space-y-16 lg:space-y-20 py-32">
+    <div className="space-y-16 lg:space-y-20 py-8 pb-12">
       {/* Main Featured Section */}
       <FeatureSection items={posts} />
 
@@ -30,19 +30,10 @@ export default async function HomePage() {
       {/* Category Grids - only show if we have enough posts */}
       {categoryPosts1.length >= 4 && (
         <CategoryGrid
-          categoryTitle="A False Front"
+          categoryTitle="Stories You May Have Missed"
           exploreLink="/explore/trompe-loeil"
-          exploreText="Explore trompe l'oeil"
+          exploreText="Explore more articles"
           items={categoryPosts1}
-        />
-      )}
-
-      {categoryPosts2.length >= 4 && (
-        <CategoryGrid
-          categoryTitle="Street Art & Murals"
-          exploreLink="/explore/street-art"
-          exploreText="Explore street art"
-          items={categoryPosts2}
         />
       )}
     </div>

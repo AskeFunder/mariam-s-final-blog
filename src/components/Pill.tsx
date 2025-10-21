@@ -10,13 +10,17 @@ type PillProps = {
 
 export default function Pill({ href, onClick, children, className = "" }: PillProps) {
     const base =
-        // block so padding is guaranteed, center text vertically
-        "inline-flex items-center justify-center rounded-full border border-[var(--foreground)] " +
-        "text-[var(--foreground)] text-base font-medium " +
-        // ✅ internal padding — space between text & border
-        "px-70 py-3 " + // 24px left/right, 12px top/bottom
-        "bg-transparent transition-colors duration-200 " +
-        "hover:bg-[var(--foreground)] hover:text-[var(--background)]";
+        // Modern pill design with subtle shadows and better spacing
+        "inline-flex items-center justify-center rounded-full " +
+        "text-[var(--foreground)] text-sm font-medium " +
+        // Modern padding and spacing
+        "px-6 py-2.5 " +
+        // Subtle background with modern glassmorphism effect
+        "bg-white/80 backdrop-blur-sm border border-white/20 " +
+        "shadow-sm hover:shadow-md " +
+        "transition-all duration-300 ease-out " +
+        "hover:bg-white/90 hover:scale-105 hover:border-white/30 " +
+        "active:scale-95";
 
     const cls = `${base} ${className}`.trim();
 

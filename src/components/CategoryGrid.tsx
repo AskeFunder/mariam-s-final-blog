@@ -36,12 +36,12 @@ export default function CategoryGrid({
 
             {/* Category Header */}
             <div className="flex items-center justify-between mb-8">
-                <h2 className="text-2xl md:text-3xl font-semibold text-foreground">
+                <h2 className="text-2xl md:text-3xl font-semibold text-foreground font-futura">
                     {categoryTitle}
                 </h2>
                 <Link
                     href={exploreLink}
-                    className="text-foreground hover:text-muted transition-colors duration-200 text-sm md:text-base"
+                    className="text-foreground hover:text-muted transition-colors duration-200 text-sm md:text-base font-futura"
                 >
                     {exploreText} →
                 </Link>
@@ -60,7 +60,7 @@ export default function CategoryGrid({
                             className="group block"
                         >
                             {img && (
-                                <div className={`relative ${aspectRatio} overflow-hidden rounded-lg mb-4`}>
+                                <div className={`relative ${aspectRatio} overflow-hidden mb-4`}>
                                     <Image
                                         src={img}
                                         alt={item.title}
@@ -70,7 +70,7 @@ export default function CategoryGrid({
                                     />
                                 </div>
                             )}
-                            <h3 className="text-sm md:text-base font-medium text-foreground leading-snug group-hover:text-pink-500 transition-colors duration-300">
+                            <h3 className="text-sm md:text-base font-medium text-foreground leading-snug group-hover:text-[#00ff00] transition-colors duration-300 font-futura">
                                 {item.title}
                             </h3>
                         </Link>

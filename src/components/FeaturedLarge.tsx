@@ -17,8 +17,8 @@ export default function FeaturedLarge({ article }: { article: Article }) {
             className="group block w-full bg-background rounded-lg overflow-hidden"
         >
             {/* 🧭 Title and metadata */}
-            <div className="px-6 pt-10 pb-4">
-                <h2 className="text-3xl md:text-4xl font-semibold text-foreground leading-tight mb-3 group-hover:underline underline-offset-4 group-hover:text-pink-500 transition-colors duration-300">
+            <div className="px-6 pt-0 pb-4">
+                <h2 className="text-3xl md:text-4xl font-semibold text-foreground leading-tight mb-3 group-hover:underline underline-offset-4 group-hover:text-[#00ff00] transition-colors duration-300 font-futura">
                     {article.title}
                 </h2>
 
@@ -31,7 +31,7 @@ export default function FeaturedLarge({ article }: { article: Article }) {
             {/* 🖼️ Portrait image */}
             {img && (
                 <div className="px-6 pb-8">
-                    <div className="relative aspect-[3/4] w-full overflow-hidden rounded-lg">
+                    <div className="relative aspect-[3/4] w-full overflow-hidden">
                         <Image
                             src={img}
                             alt={article.title}
