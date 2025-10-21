@@ -12,12 +12,12 @@ export default function Grid3x3({ items }: { items: ArticleCard[] }) {
   return (
     <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
       {items?.map((p) => {
-        const img = p.cover?.asset?.url ?? p.cover?.url; // works for Sanity or dummy
+        const img = p.cover?.asset?.url ?? p.cover?.url;
         return (
           <Link
             key={p._id}
             href={`/articles/${p.slug}`}
-            className="group block overflow-hidden rounded-lg border border-white/10 bg-white/5 transition hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/40"
+            className="group block overflow-hidden rounded-lg bg-[var(--background)] transition hover:opacity-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--foreground)]/30"
             aria-label={p.title}
           >
             {img && (
@@ -32,7 +32,9 @@ export default function Grid3x3({ items }: { items: ArticleCard[] }) {
               </div>
             )}
             <div className="p-4">
-              <h3 className="text-lg font-semibold">{p.title}</h3>
+              <h3 className="text-lg font-semibold text-[var(--foreground)]">
+                {p.title}
+              </h3>
             </div>
           </Link>
         );

@@ -13,6 +13,7 @@
     "@sanity/client": "^7.11.2",
     "@sanity/image-url": "^1.2.0",
     "@sanity/vision": "^4.10.1",
+    "@tailwindcss/postcss": "^4.1.15",
     "date-fns": "^4.1.0",
     "groq": "^4.10.1",
     "next": "15.5.4",
@@ -24,14 +25,16 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
+    "@tailwindcss/postcss": "^4.1.15",
     "@tailwindcss/typography": "^0.5.19",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
     "eslint": "^9",
     "eslint-config-next": "15.5.4",
-    "tailwindcss": "^4",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^4.1.15",
     "typescript": "^5"
   }
 }

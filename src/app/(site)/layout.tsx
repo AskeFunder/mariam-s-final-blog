@@ -2,11 +2,18 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-export default function SiteLayout({ children }: { children: React.ReactNode }) {
+export default function SiteLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <>
       <Header />
-      <main className="mx-auto max-w-6xl px-4 py-8">{children}</main>
+      {/* Add spacing below the header */}
+      <main className="mx-auto max-w-none px-6 sm:px-12 md:px-16 lg:px-20 mt-12">
+        {children}
+      </main>
       <Footer />
     </>
   );

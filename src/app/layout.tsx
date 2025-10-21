@@ -1,4 +1,3 @@
-// src/app/layout.tsx
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -18,12 +17,14 @@ export const metadata: Metadata = {
   description: "Notes on art, briefs, and a compact portfolio.",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-dvh bg-[#0a0a0a] text-[#f5f5f5]`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-dvh`}>
         {children}
       </body>
     </html>

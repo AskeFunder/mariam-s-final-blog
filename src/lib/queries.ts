@@ -72,3 +72,6 @@ export const ABOUT_PAGE = `*[_type=="page" && slug.current=="about"][0]{
   title,
   content[]
 }`;
+
+// Search query
+export const SEARCH_ARTICLES = `*[_type=="article" && (title match $searchTerm || category match $searchTerm)] | order(date desc) [0...20] ${ARTICLE_CARD}`;

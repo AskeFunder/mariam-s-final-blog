@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Aske/Desktop/Vue/Ionic/mariam-s-final-blog/src/app/%28site%29/not-found.tsx"],"sourcesContent":["export default function NotFound() {\r\n  return (\r\n    <div className=\"mx-auto max-w-2xl text-center py-24\">\r\n      <h1 className=\"text-3xl font-semibold\">Not found</h1>\r\n      <p className=\"mt-2 text-neutral-300\">\r\n        The page you’re looking for doesn’t exist (yet).\r\n      </p>\r\n      <a href=\"/\" className=\"mt-6 inline-block rounded-md border border-white/20 px-4 py-2\">\r\n        Go home\r\n      </a>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,ySAAC;QAAI,WAAU;;0BACb,ySAAC;gBAAG,WAAU;0BAAyB;;;;;;0BACvC,ySAAC;gBAAE,WAAU;0BAAwB;;;;;;0BAGrC,ySAAC;gBAAE,MAAK;gBAAI,WAAU;0BAAgE;;;;;;;;;;;;AAK5F","debugId":null}}]
+}

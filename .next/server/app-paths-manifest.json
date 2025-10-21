@@ -1,0 +1,11 @@
+{
+  "/(site)/about/page": "app/(site)/about/page.js",
+  "/(site)/articles/[slug]/page": "app/(site)/articles/[slug]/page.js",
+  "/(site)/brief/page": "app/(site)/brief/page.js",
+  "/(site)/contact/page": "app/(site)/contact/page.js",
+  "/(site)/notes-on-art/page": "app/(site)/notes-on-art/page.js",
+  "/(site)/page": "app/(site)/page.js",
+  "/(site)/portfolio/page": "app/(site)/portfolio/page.js",
+  "/(site)/search/page": "app/(site)/search/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+}

@@ -9,15 +9,25 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        background: 'var(--background)',
+        foreground: 'var(--foreground)',
+        muted: 'var(--muted)',
+      },
+      fontFamily: {
+        sans: ['var(--font-sans)', 'Arial', 'Helvetica', 'sans-serif'],
+        mono: ['var(--font-mono)', 'monospace'],
+        custom: ['var(--font-custom)'],
+      },
       typography: {
         invert: {
           css: {
-            '--tw-prose-body': 'var(--fg)',
-            '--tw-prose-headings': 'var(--fg)',
-            '--tw-prose-links': 'var(--fg)',
-            '--tw-prose-bold': 'var(--fg)',
-            '--tw-prose-quotes': 'var(--fg)',
-            '--tw-prose-code': 'var(--fg)',
+            '--tw-prose-body': 'var(--foreground)',
+            '--tw-prose-headings': 'var(--foreground)',
+            '--tw-prose-links': 'var(--foreground)',
+            '--tw-prose-bold': 'var(--foreground)',
+            '--tw-prose-quotes': 'var(--foreground)',
+            '--tw-prose-code': 'var(--foreground)',
           },
         },
       },
