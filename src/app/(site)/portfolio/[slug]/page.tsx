@@ -3,8 +3,9 @@ import { client } from '@/sanity/lib/client';
 import { PORTFOLIO_BY_SLUG } from '@/lib/queries';
 import { PortableText } from '@portabletext/react';
 
-export default async function PortfolioItem({ params }: { params: { slug: string } }) {
-  const item = await client.fetch(PORTFOLIO_BY_SLUG, { slug: params.slug });
+export default async function PortfolioItem({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const item = await client.fetch(PORTFOLIO_BY_SLUG, { slug });
   if (!item) return notFound();
 
   return (
