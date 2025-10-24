@@ -111,7 +111,7 @@ export default function SearchPage() {
                         ) : (
                             <div className="text-center py-16">
                                 <p className="text-muted text-lg">
-                                    No articles found for "{query}"
+                                    No articles found for &quot;{query}&quot;
                                 </p>
                             </div>
                         )}
@@ -121,5 +121,7 @@ export default function SearchPage() {
         </div>
     );
 }
+
+
 
 

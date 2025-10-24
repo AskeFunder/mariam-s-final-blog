@@ -21,7 +21,7 @@ export default function ExpandablePills() {
     ];
 
     return (
-        <div className="ml-auto">
+        <div className="ml-auto relative">
             {/* Main categories - always visible, right-aligned */}
             <div className="flex items-center justify-end gap-2 flex-nowrap">
                 {mainCategories.map((category, index) => (
@@ -30,8 +30,6 @@ export default function ExpandablePills() {
                             href={category.href}
                             className="
               flex items-center justify-center
-              bg-white/10 backdrop-blur-sm
-              border border-white/20
               text-foreground
               rounded-full
               px-5 py-2.5
@@ -54,8 +52,6 @@ export default function ExpandablePills() {
                         onClick={() => setIsExpanded(!isExpanded)}
                         className="
             w-8 h-8 
-            bg-white/10 backdrop-blur-sm
-            border border-white/20
             rounded-full flex items-center justify-center
             transition-all duration-300 ease-out
             hover:bg-[#00ff00] hover:text-black hover:scale-105 hover:shadow-lg
@@ -70,17 +66,15 @@ export default function ExpandablePills() {
                 </div>
             </div>
 
-            {/* Expanded categories - right-aligned with max width constraint */}
+            {/* Expanded categories - positioned relative to the entire container */}
             {isExpanded && (
-                <div className="w-full max-w-[50%] ml-auto mt-2">
+                <div className="absolute top-full right-0 z-50 mt-2 w-auto">
                     <div className="flex flex-wrap justify-end gap-2">
-                        {additionalCategories.map((category, index) => (
+                        {additionalCategories.map((category) => (
                             <button
                                 key={category}
                                 className="
                   flex items-center justify-center
-                  bg-white/10 backdrop-blur-sm
-                  border border-white/20
                   text-foreground
                   rounded-full
                   px-5 py-2.5

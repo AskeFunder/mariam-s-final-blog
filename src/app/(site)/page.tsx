@@ -10,11 +10,10 @@ export default async function HomePage() {
   if (!posts || posts.length === 0) return null;
 
   // Split posts for different sections
-  const [first, ...rest] = posts;
+  const [, ...rest] = posts;
 
   // Ensure we have enough posts for the categories
   const categoryPosts1 = rest.slice(0, 4);
-  const categoryPosts2 = rest.slice(4, 8);
 
   return (
     <div className="space-y-16 lg:space-y-20 py-8 pb-12">

@@ -6,7 +6,7 @@ export default function ContactPage() {
                     Get in Touch
                 </h1>
                 <p className="text-lg text-muted max-w-2xl mx-auto">
-                    We'd love to hear from you. Whether you have questions, feedback, or just want to say hello, feel free to reach out.
+                    We&apos;d love to hear from you. Whether you have questions, feedback, or just want to say hello, feel free to reach out.
                 </p>
             </div>
 
@@ -110,7 +110,7 @@ export default function ContactPage() {
                             <h3 className="text-lg font-medium text-foreground mb-2">Collaborations</h3>
                             <p className="text-muted">
                                 Interested in collaborating? We love working with artists, writers, and creative minds.
-                                Use the subject line "Collaboration" for faster response.
+                                Use the subject line &quot;Collaboration&quot; for faster response.
                             </p>
                         </div>
                     </div>
@@ -119,5 +119,7 @@ export default function ContactPage() {
         </div>
     );
 }
+
+
 
 

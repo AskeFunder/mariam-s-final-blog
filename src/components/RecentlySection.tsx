@@ -21,7 +21,6 @@ type RecentlySectionProps = {
 };
 
 export default function RecentlySection({
-    sectionTitle,
     items
 }: RecentlySectionProps) {
     if (!items || items.length < 5) return null;

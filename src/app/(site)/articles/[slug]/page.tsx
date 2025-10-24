@@ -14,7 +14,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
   // Pick a hero (cover → first gallery → first body image)
   const heroFromCover = post?.coverMedia?.asset;
   const heroFromGallery = post?.gallery?.[0]?.asset;
-  const heroFromBody = (post?.body || []).find((b: any) => b?._type === 'image')?.asset;
+  const heroFromBody = (post?.body || []).find((b: { _type?: string }) => b?._type === 'image')?.asset;
 
   const heroAsset = heroFromCover || heroFromGallery || heroFromBody || null;
   const heroUrl: string | undefined = heroAsset?.url;
